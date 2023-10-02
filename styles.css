@@ -1,0 +1,136 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightgoldenrodyellow;
+    line-height: 1.8;
+}
+
+/* Header styles */
+.header {
+    font-family: 'Georgia', sans-serif;
+    background-color: seagreen; /* Изумрудный цвет */
+    color:#fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.header-nav {
+  font-style: italic;
+    font-size: 20px;
+    margin-top: 20px;
+    border: solid;
+    border-color: #fff;
+
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 100px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Restaurant section styles */
+.restaurant-section {
+    background-color: olive	;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50px; /* Скругляем углы секций */
+}
+
+.restaurant-section1 {
+    background-color: navajowhite;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50px; /* Скругляем углы секций */
+}
+.restaurant-section2 {
+    background-color: lightgreen;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50px; /* Скругляем углы секций */
+}
+.restaurant-section3 {
+    background-color: orange	;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50px; /* Скругляем углы секций */
+}
+
+.restaurant-title {
+  text-align: center;
+    font-variant: small-caps;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: white; /* Цвет заголовка ресторана */
+}
+
+.restaurant-description {
+    text-align: center;
+    font-style:oblique;
+    font-family:monospace;
+    color: white;
+    font-size: 18px;
+}
+
+.restaurant-image {
+    max-width:100%;
+
+    display: block;
+    margin: 20px auto;
+    border: 1px solid ;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50px; /* Скругляем углы секций */
+
+}
+
+/* Footer styles */
+
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: seagreen; /* Изумрудный цвет */
+    color: #fff;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Фиксированная позиция */
+    bottom: 0; /* Отображение внизу */
+    width:100%; /* Ширина 100% */
+    z-index: 999; /* При необходимости настройте z-index */
+}
+
+.footer-text {
+    font-size: 15px;
+    text-transform: uppercase; /* Преобразуем текст футера в верхний регистр */
+}
+
+/* Add more specific styles as needed */
