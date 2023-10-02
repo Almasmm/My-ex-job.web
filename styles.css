@@ -1,20 +1,17 @@
-/* Reset some default styles */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Apply some basic styling */
 body {
     font-family: 'Arial', sans-serif;
     background-color: lightgoldenrodyellow;
     line-height: 1.8;
 }
 
-/* Header styles */
 .header {
     font-family: 'Georgia', sans-serif;
-    background-color: seagreen; /* Изумрудный цвет */
+    background-color: seagreen;
     color:#fff;
     padding: 10px;
     text-align: center;
@@ -50,14 +47,13 @@ body {
     font-weight: bold;
 }
 
-/* Restaurant section styles */
 .restaurant-section {
     background-color: olive	;
     margin: 20px;
     padding: 20px;
     border: 5px solid #ccc;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 50px; /* Скругляем углы секций */
+    border-radius: 50px;
 }
 
 .restaurant-section1 {
@@ -66,7 +62,7 @@ body {
     padding: 20px;
     border: 5px solid #ccc;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 50px; /* Скругляем углы секций */
+    border-radius: 50px;
 }
 .restaurant-section2 {
     background-color: lightgreen;
@@ -74,7 +70,7 @@ body {
     padding: 20px;
     border: 5px solid #ccc;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 50px; /* Скругляем углы секций */
+    border-radius: 50px;
 }
 .restaurant-section3 {
     background-color: orange	;
@@ -82,7 +78,7 @@ body {
     padding: 20px;
     border: 5px solid #ccc;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 50px; /* Скругляем углы секций */
+    border-radius: 50px;
 }
 
 .restaurant-title {
@@ -90,7 +86,7 @@ body {
     font-variant: small-caps;
     font-size: 28px;
     margin-bottom: 10px;
-    color: white; /* Цвет заголовка ресторана */
+    color: white;
 }
 
 .restaurant-description {
@@ -108,29 +104,39 @@ body {
     margin: 20px auto;
     border: 1px solid ;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 50px; /* Скругляем углы секций */
+    border-radius: 50px;
 
 }
-
-/* Footer styles */
-
-
-/* Footer styles */
 .footer {
     text-align: center;
     padding: 10px;
-    background-color: seagreen; /* Изумрудный цвет */
+    background-color: seagreen;
     color: #fff;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
-    position: fixed; /* Фиксированная позиция */
-    bottom: 0; /* Отображение внизу */
-    width:100%; /* Ширина 100% */
-    z-index: 999; /* При необходимости настройте z-index */
+    position: fixed;
+    bottom: 0;
+    width:80%;
+    margin-left: 10%;
+    z-index: 999;
+    border-radius: 50px;
 }
 
 .footer-text {
     font-size: 15px;
-    text-transform: uppercase; /* Преобразуем текст футера в верхний регистр */
+    text-transform: uppercase;
+}
+.github-link {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
 }
 
-/* Add more specific styles as needed */
+.github-link:hover {
+    background-color: #555;
+}
