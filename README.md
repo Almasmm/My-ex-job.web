@@ -1,1 +1,1 @@
-# webProject Murat Almas
+Assignment #1 Web technologies course
